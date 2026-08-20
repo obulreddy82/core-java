@@ -1,0 +1,25 @@
+What is streams?
+Collection stores the data, stream process the data
+A stream is a sequence of elements that allows you to process data in a clean an functional way
+
+Collections->stream() -> intermediate operations -> terminal operations -> result
+
+Intermediate operations:
+
+Intermediate operations transform stream into another stream
+
+filter(), map(), sorted(), distinct(), limit(), skip(),flatMap(),
+
+They are lazy, meaning they dont actually process the data until a terminal operational is called
+
+Terminal Operations:
+
+terminal operations finish the stream pipelings
+
+forEach(), collect(), count(), reduce() , findFirst(), findAny(), anyMatch(),allMatch(),
+noneMatch(),min(),max(),
+
+Combining operations
+
+
+
