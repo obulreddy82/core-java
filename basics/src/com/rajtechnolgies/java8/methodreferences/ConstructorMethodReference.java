@@ -18,7 +18,7 @@ public class ConstructorMethodReference {
          * Equivalent lambda expression:
          * Supplier<Student> supplier = () -> new Student();
          */
-        Supplier<Student> student = () -> new Student();
+        Supplier<Student> student = Student::new;
         student.get();
     }
 }
