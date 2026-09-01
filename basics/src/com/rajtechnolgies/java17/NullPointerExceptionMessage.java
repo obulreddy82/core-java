@@ -14,7 +14,8 @@ public record NullPointerExceptionMessage(Employee employee) {
     public static void main(String[] args) {
             Employee employee=null;
             employee.getName();
-            NullPointerExceptionMessage nullPointerExceptionMessage=new NullPointerExceptionMessage(employee);
+            NullPointerExceptionMessage nullPointerExceptionMessage=new
+                    NullPointerExceptionMessage(employee);
             System.out.println(nullPointerExceptionMessage);
     }
 }

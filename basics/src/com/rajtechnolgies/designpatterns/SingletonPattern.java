@@ -1,4 +1,5 @@
 package com.rajtechnolgies.designpatterns;
+//shared one instance
 
 public class SingletonPattern {
 
